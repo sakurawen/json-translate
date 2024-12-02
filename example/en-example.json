@@ -18,7 +18,7 @@
       },
       "translation": {
         "title": "AI Translation",
-        "description": "Utilizes OpenAI's GPT model for intelligent translation, ensuring accuracy of technical terms and natural expression",
+        "description": "Utilizes DeepSeek's GPT model for intelligent translation, ensuring accuracy of technical terms and natural expression",
         "features": [
           "Maintains JSON structure integrity",
           "Supports nested JSON structures",

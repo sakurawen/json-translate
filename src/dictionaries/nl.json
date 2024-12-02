@@ -43,7 +43,7 @@
       },
       "2": {
         "title": "AI-Aangedreven Vertaling",
-        "description": "Gebruikmakend van OpenAI GPT-modellen om de nauwkeurigheid van technische termen en natuurlijke uitdrukkingen te waarborgen"
+        "description": "Gebruikmakend van DeepSeek GPT-modellen om de nauwkeurigheid van technische termen en natuurlijke uitdrukkingen te waarborgen"
       },
       "3": {
         "title": "Veilig & Betrouwbaar",
@@ -56,7 +56,7 @@
     "description": "Upload uw JSON-bestand voor vertaling",
     "dragText": "Sleep bestanden hierheen of klik om te uploaden",
     "supportText": "Ondersteunt .json-bestandsindelingen, tot 10MB",
-    "apiKeyTip": "Tips: OpenAI API-sleutel is vereist voor vertaling",
+    "apiKeyTip": "Tips: DeepSeek API-sleutel is vereist voor vertaling",
     "errors": {
       "selectFile": "Selecteer alstublieft een bestand",
       "jsonExtension": "Upload alstublieft een bestand met een .json-extensie",
@@ -67,7 +67,7 @@
     "success": {
       "uploaded": "Bestand succesvol geüpload"
     },
-    "apiKeyTitle": "OpenAI API-sleutel",
+    "apiKeyTitle": "DeepSeek API-sleutel",
     "apiKeyPlaceholder": "sk-...",
     "errorTitle": "Fout",
     "successTitle": "Succes"
@@ -205,7 +205,7 @@
       },
       "1": {
         "question": "Hoe gebruik je deze tool?",
-        "answer": "1. Upload je JSON-bestand voor vertaling\n2. Selecteer doeltalen\n3. Voer je OpenAI API-sleutel in\n4. Klik op start vertaling\n5. Download de resultaten nadat de vertaling is voltooid"
+        "answer": "1. Upload je JSON-bestand voor vertaling\n2. Selecteer doeltalen\n3. Voer je DeepSeek API-sleutel in\n4. Klik op start vertaling\n5. Download de resultaten nadat de vertaling is voltooid"
       },
       "2": {
         "question": "Welke talen worden ondersteund?",
@@ -217,7 +217,7 @@
       },
       "4": {
         "question": "Hoe wordt de vertaalkwaliteit gegarandeerd?",
-        "answer": "We gebruiken het GPT-model van OpenAI voor vertaling, wat de nauwkeurigheid van technische termen en natuurlijke taaluitdrukkingen waarborgt. We ondersteunen ook de functionaliteit van een aangepast woordenboek om de consistentie van specifieke terminologie te behouden."
+        "answer": "We gebruiken het GPT-model van DeepSeek voor vertaling, wat de nauwkeurigheid van technische termen en natuurlijke taaluitdrukkingen waarborgt. We ondersteunen ook de functionaliteit van een aangepast woordenboek om de consistentie van specifieke terminologie te behouden."
       },
       "5": {
         "question": "Is er een limiet voor de bestandsgrootte?",
@@ -244,6 +244,6 @@
   "metadata": {
     "title": "JSON Vertaler - AI-Aangedreven Meertalige Vertaaloplossing",
     "description": "Vertaal JSON-taalbestanden snel en nauwkeurig naar meerdere talen met AI-technologie. Ondersteunt JSON-structuur, variabele plaatshouders en HTML-tags.",
-    "keywords": "JSON vertaling,AI vertaling,internationalisatie,i18n,meertalige vertaling,OpenAI"
+    "keywords": "JSON vertaling,AI vertaling,internationalisatie,i18n,meertalige vertaling,DeepSeek"
   }
 }

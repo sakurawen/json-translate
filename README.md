@@ -52,7 +52,7 @@
 
 ## ✨ Features
 
-- 🤖 Smart translation powered by OpenAI GPT models
+- 🤖 Smart translation powered by DeepSeek GPT models
 - 🔄 Maintains JSON structure integrity
 - 🌍 Supports 40+ languages
 - 🌐 Multi-language interface
@@ -65,6 +65,7 @@
 ## 📖 AI-Driven Product Design
 
 This project includes complete Product Requirements Documents in both English and Chinese:
+
 - [English PRD](./json-translator-prd.md)
 - [中文 PRD](./json-translator-prd.zh.md)
 
@@ -74,7 +75,7 @@ This project includes complete Product Requirements Documents in both English an
 
 - Node.js >= 16.0.0
 - npm or yarn or pnpm
-- OpenAI API key
+- DeepSeek API key
 
 ### Installation
 
@@ -95,6 +96,7 @@ npm install
 ```bash
 npm run dev
 ```
+
 Visit http://localhost:3000 to view the development environment.
 
 ### Build
@@ -110,10 +112,12 @@ npm run start
 ## 📖 Usage Guide
 
 1. **Preparation**
+
    - Prepare your JSON file for translation
-   - Get your OpenAI API key (https://platform.openai.com)
+   - Get your DeepSeek API key (https://platform.openai.com)
 
 2. **Getting Started**
+
    - Visit the website
    - Upload JSON file (drag & drop supported)
    - Select target language
@@ -134,16 +138,16 @@ npm run start
 
 ## 🛠 Tech Stack
 
-- **Development Tool**: 
+- **Development Tool**:
   - Cursor (AI-assisted development)
 - **Framework**: Next.js 14
-- **UI**: 
+- **UI**:
   - React 18
   - Tailwind CSS
   - Radix UI
   - HeadlessUI
 - **Language**: TypeScript
-- **API**: OpenAI API
+- **API**: DeepSeek API
 - **Libraries**:
   - JSZip (file handling)
   - React Syntax Highlighter
@@ -160,6 +164,7 @@ I welcome all forms of contributions, whether it's new features, bug fixes, or d
 5. Open a Pull Request
 
 ### Development Guidelines
+
 - Follow existing code style
 - Ensure code passes `npm run lint`
 - Test functionality before submitting
@@ -175,6 +180,7 @@ A: Yes. API keys are only used temporarily in the browser and are never saved or
 
 **Q: Which languages are supported?**  
 A: 40+ major languages including but not limited to:
+
 - Chinese (Simplified/Traditional)
 - English
 - Japanese
@@ -183,7 +189,7 @@ A: 40+ major languages including but not limited to:
 - German
 - Spanish
 - Russian
-etc.
+  etc.
 
 **Q: Is there a file size limit?**  
 A: Single files are limited to 10MB.
@@ -198,7 +204,7 @@ A: Single files are limited to 10MB.
 
 Thanks to all users who provided feedback. Special thanks to:
 
-- OpenAI team for their powerful API
+- DeepSeek team for their powerful API
 - Next.js team for the excellent framework
 - All project contributors
 

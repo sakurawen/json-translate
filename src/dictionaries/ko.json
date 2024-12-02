@@ -43,7 +43,7 @@
       },
       "2": {
         "title": "AI 기반 번역",
-        "description": "기술 용어의 정확성과 자연스러운 표현을 보장하기 위해 OpenAI GPT 모델을 활용합니다."
+        "description": "기술 용어의 정확성과 자연스러운 표현을 보장하기 위해 DeepSeek GPT 모델을 활용합니다."
       },
       "3": {
         "title": "안전하고 신뢰할 수 있음",
@@ -56,7 +56,7 @@
     "description": "번역을 위해 JSON 파일을 업로드하세요",
     "dragText": "여기에 파일을 드래그하거나 클릭하여 업로드",
     "supportText": ".json 형식 파일 지원, 최대 10MB",
-    "apiKeyTip": "팁: 번역을 위해 OpenAI API 키가 필요합니다",
+    "apiKeyTip": "팁: 번역을 위해 DeepSeek API 키가 필요합니다",
     "errors": {
       "selectFile": "파일을 선택하세요",
       "jsonExtension": ".json 확장자를 가진 파일을 업로드하세요",
@@ -67,7 +67,7 @@
     "success": {
       "uploaded": "파일이 성공적으로 업로드되었습니다."
     },
-    "apiKeyTitle": "OpenAI API 키",
+    "apiKeyTitle": "DeepSeek API 키",
     "apiKeyPlaceholder": "sk-...",
     "errorTitle": "오류",
     "successTitle": "성공"
@@ -205,7 +205,7 @@
       },
       "1": {
         "question": "이 도구를 어떻게 사용하나요?",
-        "answer": "1. 번역할 JSON 파일을 업로드합니다.\n2. 대상 언어를 선택합니다.\n3. OpenAI API 키를 입력합니다.\n4. 번역 시작을 클릭합니다.\n5. 번역이 완료된 후 결과를 다운로드합니다."
+        "answer": "1. 번역할 JSON 파일을 업로드합니다.\n2. 대상 언어를 선택합니다.\n3. DeepSeek API 키를 입력합니다.\n4. 번역 시작을 클릭합니다.\n5. 번역이 완료된 후 결과를 다운로드합니다."
       },
       "2": {
         "question": "어떤 언어가 지원되나요?",
@@ -217,7 +217,7 @@
       },
       "4": {
         "question": "번역 품질은 어떻게 보장되나요?",
-        "answer": "우리는 번역을 위해 OpenAI의 GPT 모델을 사용하여 기술 용어의 정확성과 자연어 표현을 보장합니다. 또한 특정 용어의 일관성을 유지하기 위해 사용자 정의 사전 기능을 지원합니다."
+        "answer": "우리는 번역을 위해 DeepSeek의 GPT 모델을 사용하여 기술 용어의 정확성과 자연어 표현을 보장합니다. 또한 특정 용어의 일관성을 유지하기 위해 사용자 정의 사전 기능을 지원합니다."
       },
       "5": {
         "question": "파일 크기 제한이 있나요?",
@@ -244,6 +244,6 @@
   "metadata": {
     "title": "JSON 번역 도구 - AI 기반 다국어 번역 솔루션",
     "description": "AI 기술을 사용하여 JSON 언어 파일을 여러 언어로 빠르고 정확하게 번역합니다. JSON 구조, 변수 자리 표시자 및 HTML 태그를 지원합니다.",
-    "keywords": "JSON번역,AI번역,국제화,i18n,다국어번역,OpenAI,온라인도구"
+    "keywords": "JSON번역,AI번역,국제화,i18n,다국어번역,DeepSeek,온라인도구"
   }
 }

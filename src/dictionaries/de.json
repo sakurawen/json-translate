@@ -43,7 +43,7 @@
       },
       "2": {
         "title": "KI-gestützte Übersetzung",
-        "description": "Nutzung von OpenAI GPT-Modellen zur Sicherstellung der Genauigkeit technischer Begriffe und natürlicher Ausdrucksweise"
+        "description": "Nutzung von DeepSeek GPT-Modellen zur Sicherstellung der Genauigkeit technischer Begriffe und natürlicher Ausdrucksweise"
       },
       "3": {
         "title": "Sicher & Zuverlässig",
@@ -56,7 +56,7 @@
     "description": "Laden Sie Ihre JSON-Datei zur Übersetzung hoch",
     "dragText": "Dateien hierher ziehen oder klicken, um hochzuladen",
     "supportText": "Unterstützt .json-Formatdateien, bis zu 10MB",
-    "apiKeyTip": "Hinweis: OpenAI API-Schlüssel ist für die Übersetzung erforderlich",
+    "apiKeyTip": "Hinweis: DeepSeek API-Schlüssel ist für die Übersetzung erforderlich",
     "errors": {
       "selectFile": "Bitte wählen Sie eine Datei aus",
       "jsonExtension": "Bitte laden Sie eine Datei mit der .json-Erweiterung hoch",
@@ -67,7 +67,7 @@
     "success": {
       "uploaded": "Datei erfolgreich hochgeladen"
     },
-    "apiKeyTitle": "OpenAI API-Schlüssel",
+    "apiKeyTitle": "DeepSeek API-Schlüssel",
     "apiKeyPlaceholder": "sk-...",
     "errorTitle": "Fehler",
     "successTitle": "Erfolg"
@@ -205,7 +205,7 @@
       },
       "1": {
         "question": "Wie benutzt man dieses Tool?",
-        "answer": "1. Laden Sie Ihre JSON-Datei zur Übersetzung hoch\n2. Wählen Sie die Zielsprache aus\n3. Geben Sie Ihren OpenAI API-Schlüssel ein\n4. Klicken Sie auf Übersetzung starten\n5. Laden Sie die Ergebnisse herunter, nachdem die Übersetzung abgeschlossen ist"
+        "answer": "1. Laden Sie Ihre JSON-Datei zur Übersetzung hoch\n2. Wählen Sie die Zielsprache aus\n3. Geben Sie Ihren DeepSeek API-Schlüssel ein\n4. Klicken Sie auf Übersetzung starten\n5. Laden Sie die Ergebnisse herunter, nachdem die Übersetzung abgeschlossen ist"
       },
       "2": {
         "question": "Welche Sprachen werden unterstützt?",
@@ -217,7 +217,7 @@
       },
       "4": {
         "question": "Wie wird die Übersetzungsqualität sichergestellt?",
-        "answer": "Wir verwenden das GPT-Modell von OpenAI für die Übersetzung, um die Genauigkeit technischer Begriffe und den Ausdruck in natürlicher Sprache zu gewährleisten. Wir unterstützen auch die Funktionalität eines benutzerdefinierten Wörterbuchs, um die Konsistenz spezifischer Terminologie aufrechtzuerhalten."
+        "answer": "Wir verwenden das GPT-Modell von DeepSeek für die Übersetzung, um die Genauigkeit technischer Begriffe und den Ausdruck in natürlicher Sprache zu gewährleisten. Wir unterstützen auch die Funktionalität eines benutzerdefinierten Wörterbuchs, um die Konsistenz spezifischer Terminologie aufrechtzuerhalten."
       },
       "5": {
         "question": "Gibt es eine Dateigrößenbeschränkung?",
@@ -244,6 +244,6 @@
   "metadata": {
     "title": "JSON-Übersetzer - KI-gestützte mehrsprachige Übersetzungslösung",
     "description": "Übersetzen Sie JSON-Sprachdateien schnell und präzise in mehrere Sprachen mit KI-Technologie. Unterstützt JSON-Struktur, Variablen-Platzhalter und HTML-Tags.",
-    "keywords": "JSON-Übersetzung,KI-Übersetzung,Internationalisierung,i18n,mehrsprachige Übersetzung,OpenAI"
+    "keywords": "JSON-Übersetzung,KI-Übersetzung,Internationalisierung,i18n,mehrsprachige Übersetzung,DeepSeek"
   }
 }

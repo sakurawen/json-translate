@@ -55,7 +55,7 @@ export default function Navbar() {
             
             {/* Twitter/X 链接 */}
             <a
-              href="https://x.com/decohack"
+              href="https://x.com/wenhouman"
               target="_blank"
               rel="noopener noreferrer"
               className={`transition-colors ${
@@ -74,7 +74,7 @@ export default function Navbar() {
 
             {/* GitHub 链接 */}
             <a
-              href="https://github.com/ViggoZ/json-translate"
+              href="https://github.com/sakurawen/json-translate"
               target="_blank"
               rel="noopener noreferrer"
               className={`transition-colors ${

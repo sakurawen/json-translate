@@ -43,7 +43,7 @@
       },
       {
         "title": "AI駆動の翻訳",
-        "description": "OpenAI GPTモデルを使用し、専門用語の正確性と自然な表現を確保"
+        "description": "DeepSeek GPTモデルを使用し、専門用語の正確性と自然な表現を確保"
       },
       {
         "title": "安全性と信頼性",
@@ -56,7 +56,7 @@
     "description": "翻訳したいJSONファイルをアップロードしてください",
     "dragText": "ファイルをドラッグ＆ドロップまたはクリックしてアップロード",
     "supportText": ".json形式のファイル（最大10MB）に対応",
-    "apiKeyTip": "ヒント：翻訳にはOpenAI API Keyが必要です",
+    "apiKeyTip": "ヒント：翻訳にはDeepSeek API Keyが必要です",
     "errors": {
       "selectFile": "ファイルを選択してください",
       "jsonExtension": ".json形式のファイルをアップロードしてください",
@@ -67,7 +67,7 @@
     "success": {
       "uploaded": "ファイルのアップロードが完了しました"
     },
-    "apiKeyTitle": "OpenAI API Key",
+    "apiKeyTitle": "DeepSeek API Key",
     "apiKeyPlaceholder": "sk-...",
     "errorTitle": "エラー",
     "successTitle": "成功"
@@ -205,7 +205,7 @@
       },
       {
         "question": "使い方を教えてください",
-        "answer": "1. 翻訳したいJSONファイルをアップロード\n2. 対象言語を選択\n3. OpenAI APIキーを入力\n4. 翻訳を開始\n5. 翻訳完了後、結果をダウンロード"
+        "answer": "1. 翻訳したいJSONファイルをアップロード\n2. 対象言語を選択\n3. DeepSeek APIキーを入力\n4. 翻訳を開始\n5. 翻訳完了後、結果をダウンロード"
       },
       {
         "question": "対応している言語は？",
@@ -217,7 +217,7 @@
       },
       {
         "question": "翻訳品質はどのように保証されていますか？",
-        "answer": "OpenAIのGPTモデルを使用して翻訳を行い、専門用語の正確性と自然な表現を確保しています。また、特定の用語の一貫性を保つためのカスタム辞書機能もサポートしています。"
+        "answer": "DeepSeekのGPTモデルを使用して翻訳を行い、専門用語の正確性と自然な表現を確保しています。また、特定の用語の一貫性を保つためのカスタム辞書機能もサポートしています。"
       },
       {
         "question": "ファイルサイズの制限はありますか？",
@@ -244,6 +244,6 @@
   "metadata": {
     "title": "JSON翻訳ツール - AI搭載の多言語翻訳ソリューション",
     "description": "AI技術で素早く正確にJSONファイルを多言語に翻訳。JSON構造、変数プレースホルダー、HTMLタグをサポート。",
-    "keywords": "JSON翻訳,AI翻訳,国際化,i18n,多言語翻訳,OpenAI"
+    "keywords": "JSON翻訳,AI翻訳,国際化,i18n,多言語翻訳,DeepSeek"
   }
 } 

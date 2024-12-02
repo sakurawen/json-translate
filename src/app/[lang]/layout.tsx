@@ -8,7 +8,6 @@ import { locales, defaultLocale } from "@/config/i18n";
 import { notFound } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
-import Analytics from '@/components/Analytics'
 
 const geistSans = localFont({
   src: "../fonts/GeistVF.woff",
@@ -129,7 +128,6 @@ export default async function LocaleLayout(props: LayoutProps) {
         geistMono.variable,
         "min-h-screen bg-background font-sans antialiased"
       )}>
-        <Analytics />
         <TranslateProvider>
           <Navbar />
           {children}

@@ -52,19 +52,20 @@
 
 ## ✨ 特性
 
-- 🤖 基于OpenAI GPT模型的智能翻译
-- 🔄 保持JSON结构完整性
-- 🌍 支持40+种语言
+- 🤖 基于 DeepSeek GPT 模型的智能翻译
+- 🔄 保持 JSON 结构完整性
+- 🌍 支持 40+种语言
 - 🌐 网站界面支持多语言切换
 - ⚡️ 实时翻译预览
-- 🛡️ API密钥本地使用,注重安全
+- 🛡️ API 密钥本地使用,注重安全
 - 📦 支持批量导出翻译结果
 - 🎯 专业术语准确翻译
 - 💻 完全开源,代码透明
 
-## 📖 AI驱动的产品设计
+## 📖 AI 驱动的产品设计
 
 本项目包含完整的产品需求文档（提供中英文版本）：
+
 - [English PRD](./json-translator-prd.md)
 - [中文 PRD](./json-translator-prd.zh.md)
 
@@ -74,7 +75,7 @@
 
 - Node.js >= 16.0.0
 - npm 或 yarn 或 pnpm
-- OpenAI API密钥
+- DeepSeek API 密钥
 
 ### 安装
 
@@ -95,6 +96,7 @@ npm install
 ```bash
 npm run dev
 ```
+
 访问 http://localhost:3000 查看开发环境。
 
 ### 构建
@@ -110,40 +112,42 @@ npm run start
 ## 📖 使用指南
 
 1. **准备工作**
-   - 准备需要翻译的JSON文件
-   - 获取OpenAI API密钥 (https://platform.openai.com)
+
+   - 准备需要翻译的 JSON 文件
+   - 获取 DeepSeek API 密钥 (https://platform.openai.com)
 
 2. **开始使用**
+
    - 访问网站
-   - 上传JSON文件 (支持拖拽上传)
+   - 上传 JSON 文件 (支持拖拽上传)
    - 选择目标语言
-   - 输入API密钥
+   - 输入 API 密钥
    - 点击开始翻译
 
 3. **功能说明**
-   - 支持单个JSON文件翻译
+   - 支持单个 JSON 文件翻译
    - 实时预览翻译结果
-   - 支持导出JSON格式
+   - 支持导出 JSON 格式
 
 ## 💡 最佳实践
 
 - 建议将大文件拆分成小文件翻译
-- 翻译前检查JSON格式是否正确
+- 翻译前检查 JSON 格式是否正确
 - 使用预览功能确认翻译质量
 - 定期备份重要的翻译文件
 
 ## 🛠 技术栈
 
-- **开发工具**: 
-  - Cursor (AI辅助开发)
+- **开发工具**:
+  - Cursor (AI 辅助开发)
 - **框架**: Next.js 14
-- **UI**: 
+- **UI**:
   - React 18
   - Tailwind CSS
   - Radix UI
   - HeadlessUI
 - **语言**: TypeScript
-- **API**: OpenAI API
+- **API**: DeepSeek API
 - **工具库**:
   - JSZip (文件处理)
   - React Syntax Highlighter (代码高亮)
@@ -151,7 +155,7 @@ npm run start
 
 ## 🤝 贡献指南
 
-我欢迎所有形式的贡献，无论是新功能、bug修复还是文档改进。
+我欢迎所有形式的贡献，无论是新功能、bug 修复还是文档改进。
 
 1. Fork 项目
 2. 创建分支 (`git checkout -b feature/YourFeature`)
@@ -160,6 +164,7 @@ npm run start
 5. 提交 Pull Request
 
 ### 开发指南
+
 - 遵循项目现有的代码风格
 - 确保代码通过 `npm run lint` 检查
 - 提交前测试功能是否正常工作
@@ -170,11 +175,12 @@ npm run start
 
 ## 🙋 常见问题
 
-**Q: API密钥安全吗？**  
-A: 是的。API密钥仅在浏览器中临时使用，不会保存或传输到服务器。
+**Q: API 密钥安全吗？**  
+A: 是的。API 密钥仅在浏览器中临时使用，不会保存或传输到服务器。
 
 **Q: 支持哪些语言？**  
-A: 支持40+种主流语言，包括但不限于：
+A: 支持 40+种主流语言，包括但不限于：
+
 - 中文(简体/繁体)
 - 英语
 - 日语
@@ -183,10 +189,10 @@ A: 支持40+种主流语言，包括但不限于：
 - 德语
 - 西班牙语
 - 俄语
-等
+  等
 
 **Q: 文件大小有限制吗？**  
-A: 单个文件限制为10MB。
+A: 单个文件限制为 10MB。
 
 ## 📞 联系方式
 
@@ -198,7 +204,7 @@ A: 单个文件限制为10MB。
 
 感谢所有为这个项目提供反馈的用户。特别感谢：
 
-- OpenAI 团队提供的强大API支持
+- DeepSeek 团队提供的强大 API 支持
 - Next.js 团队的出色框架
 - 所有项目贡献者
 

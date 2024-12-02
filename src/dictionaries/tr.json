@@ -43,7 +43,7 @@
       },
       "2": {
         "title": "AI Destekli Çeviri",
-        "description": "Teknik terimlerin doğruluğunu ve doğal ifadeyi sağlamak için OpenAI GPT modellerini kullanma"
+        "description": "Teknik terimlerin doğruluğunu ve doğal ifadeyi sağlamak için DeepSeek GPT modellerini kullanma"
       },
       "3": {
         "title": "Güvenli ve Güvenilir",
@@ -56,7 +56,7 @@
     "description": "Çeviri için JSON dosyanızı yükleyin",
     "dragText": "Dosyaları buraya sürükleyin veya yüklemek için tıklayın",
     "supportText": ".json format dosyalarını destekler, en fazla 10MB",
-    "apiKeyTip": "İpucu: Çeviri için OpenAI API Anahtarı gereklidir",
+    "apiKeyTip": "İpucu: Çeviri için DeepSeek API Anahtarı gereklidir",
     "errors": {
       "selectFile": "Lütfen bir dosya seçin",
       "jsonExtension": "Lütfen .json uzantılı bir dosya yükleyin",
@@ -67,7 +67,7 @@
     "success": {
       "uploaded": "Dosya başarıyla yüklendi"
     },
-    "apiKeyTitle": "OpenAI API Anahtarı",
+    "apiKeyTitle": "DeepSeek API Anahtarı",
     "apiKeyPlaceholder": "sk-...",
     "errorTitle": "Hata",
     "successTitle": "Başarılı"
@@ -205,7 +205,7 @@
       },
       "1": {
         "question": "Bu aracı nasıl kullanırım?",
-        "answer": "1. Çeviri için JSON dosyanızı yükleyin\n2. Hedef dilleri seçin\n3. OpenAI API Anahtarınızı girin\n4. Çeviriyi başlatmak için tıklayın\n5. Çeviri tamamlandıktan sonra sonuçları indirin"
+        "answer": "1. Çeviri için JSON dosyanızı yükleyin\n2. Hedef dilleri seçin\n3. DeepSeek API Anahtarınızı girin\n4. Çeviriyi başlatmak için tıklayın\n5. Çeviri tamamlandıktan sonra sonuçları indirin"
       },
       "2": {
         "question": "Hangi diller destekleniyor?",
@@ -217,7 +217,7 @@
       },
       "4": {
         "question": "Çeviri kalitesi nasıl garanti ediliyor?",
-        "answer": "Çeviri için OpenAI'nin GPT modelini kullanıyoruz, teknik terimlerin doğruluğunu ve doğal dil ifadesini sağlıyoruz. Ayrıca belirli terminolojinin tutarlılığını korumak için özel sözlük işlevselliğini de destekliyoruz."
+        "answer": "Çeviri için DeepSeek'nin GPT modelini kullanıyoruz, teknik terimlerin doğruluğunu ve doğal dil ifadesini sağlıyoruz. Ayrıca belirli terminolojinin tutarlılığını korumak için özel sözlük işlevselliğini de destekliyoruz."
       },
       "5": {
         "question": "Bir dosya boyutu limiti var mı?",
@@ -244,6 +244,6 @@
   "metadata": {
     "title": "JSON Çevirmen - AI Destekli Çok Dilli Çeviri Çözümü",
     "description": "JSON dil dosyalarını AI teknolojisi ile hızlı ve doğru bir şekilde birden çok dile çevirin. JSON yapısını, değişken yer tutucularını ve HTML etiketlerini destekler.",
-    "keywords": "JSON çeviri,AI çeviri,uluslararasılaştırma,i18n,çok dilli çeviri,OpenAI"
+    "keywords": "JSON çeviri,AI çeviri,uluslararasılaştırma,i18n,çok dilli çeviri,DeepSeek"
   }
 }

@@ -1,4 +1,4 @@
-import OpenAI from 'openai'
+import {OpenAI} from 'openai'
 
 export async function translate(
   text: string, 
@@ -12,7 +12,8 @@ export async function translate(
     throw new Error('Invalid API Key format')
   }
 
-  const openai = new OpenAI({ 
+  const openai= new OpenAI({ 
+    baseURL:"https://api.deepseek.com",
     apiKey,
     dangerouslyAllowBrowser: true
   })
@@ -29,7 +30,7 @@ export async function translate(
     ${text}`
 
     const response = await openai.chat.completions.create({
-      model: "gpt-4o-mini",
+      model: "deepseek-chat",
       messages: [
         {
           role: "system",
@@ -100,6 +101,7 @@ export async function validateApiKey(apiKey: string): Promise<boolean> {
   }
 
   const openai = new OpenAI({ 
+    baseURL:"https://api.deepseek.com",
     apiKey,
     dangerouslyAllowBrowser: true
   })
@@ -107,7 +109,7 @@ export async function validateApiKey(apiKey: string): Promise<boolean> {
   try {
     // Send a minimal request to validate the API key
     await openai.chat.completions.create({
-      model: "gpt-4o-mini",
+      model: "deepseek-chat",
       messages: [{ role: "user", content: "test" }],
       max_tokens: 1
     })

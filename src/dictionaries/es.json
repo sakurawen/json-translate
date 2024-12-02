@@ -43,7 +43,7 @@
       },
       "2": {
         "title": "Traducción Impulsada por IA",
-        "description": "Utilizando modelos GPT de OpenAI para asegurar la precisión de términos técnicos y expresión natural"
+        "description": "Utilizando modelos GPT de DeepSeek para asegurar la precisión de términos técnicos y expresión natural"
       },
       "3": {
         "title": "Seguro y Confiable",
@@ -56,7 +56,7 @@
     "description": "Sube tu archivo JSON para traducción",
     "dragText": "Arrastra archivos aquí o haz clic para subir",
     "supportText": "Soporta archivos en formato .json, hasta 10MB",
-    "apiKeyTip": "Consejos: Se requiere clave API de OpenAI para la traducción",
+    "apiKeyTip": "Consejos: Se requiere clave API de DeepSeek para la traducción",
     "errors": {
       "selectFile": "Por favor selecciona un archivo",
       "jsonExtension": "Por favor sube un archivo con extensión .json",
@@ -67,7 +67,7 @@
     "success": {
       "uploaded": "Archivo subido exitosamente"
     },
-    "apiKeyTitle": "Clave API de OpenAI",
+    "apiKeyTitle": "Clave API de DeepSeek",
     "apiKeyPlaceholder": "sk-...",
     "errorTitle": "Error",
     "successTitle": "Éxito"
@@ -205,7 +205,7 @@
       },
       "1": {
         "question": "¿Cómo usar esta herramienta?",
-        "answer": "1. Carga tu archivo JSON para traducción\n2. Selecciona los idiomas de destino\n3. Ingresa tu clave API de OpenAI\n4. Haz clic en iniciar traducción\n5. Descarga los resultados después de que la traducción esté completa"
+        "answer": "1. Carga tu archivo JSON para traducción\n2. Selecciona los idiomas de destino\n3. Ingresa tu clave API de DeepSeek\n4. Haz clic en iniciar traducción\n5. Descarga los resultados después de que la traducción esté completa"
       },
       "2": {
         "question": "¿Qué idiomas son compatibles?",
@@ -217,7 +217,7 @@
       },
       "4": {
         "question": "¿Cómo se asegura la calidad de la traducción?",
-        "answer": "Utilizamos el modelo GPT de OpenAI para la traducción, asegurando la precisión de los términos técnicos y la expresión en lenguaje natural. También apoyamos la funcionalidad de diccionario personalizado para mantener la consistencia de la terminología específica."
+        "answer": "Utilizamos el modelo GPT de DeepSeek para la traducción, asegurando la precisión de los términos técnicos y la expresión en lenguaje natural. También apoyamos la funcionalidad de diccionario personalizado para mantener la consistencia de la terminología específica."
       },
       "5": {
         "question": "¿Hay un límite de tamaño de archivo?",
@@ -244,6 +244,6 @@
   "metadata": {
     "title": "Traductor JSON - Solución de Traducción Multilingüe Impulsada por IA",
     "description": "Traduce archivos JSON a múltiples idiomas de forma rápida y precisa utilizando tecnología de IA. Compatible con estructura JSON, marcadores de posición y etiquetas HTML.",
-    "keywords": "traducción JSON,traducción IA,internacionalización,i18n,traducción multilingüe,OpenAI"
+    "keywords": "traducción JSON,traducción IA,internacionalización,i18n,traducción multilingüe,DeepSeek"
   }
 }

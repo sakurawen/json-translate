@@ -180,10 +180,10 @@ export function FileUpload({ dict }: FileUploadProps) {
       <div>
         <h2 className="text-xl font-semibold flex items-center gap-2">
           <KeyIcon className="w-5 h-5" />
-          {dict.apiKeyTitle || "OpenAI API Key"}
+          {dict.apiKeyTitle || "DeepSeek API Key"}
         </h2>
         <p className="text-xs text-muted-foreground pb-2">
-          {dict.apiKeyTip || "Tips: OpenAI API Key is required for translation."}
+          {dict.apiKeyTip || "Tips: DeepSeek API Key is required for translation."}
         </p>
         <Input 
           type="password" 

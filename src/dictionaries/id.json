@@ -43,7 +43,7 @@
       },
       "2": {
         "title": "Terjemahan Didukung AI",
-        "description": "Memanfaatkan model OpenAI GPT untuk memastikan akurasi istilah teknis dan ekspresi alami"
+        "description": "Memanfaatkan model DeepSeek GPT untuk memastikan akurasi istilah teknis dan ekspresi alami"
       },
       "3": {
         "title": "Aman & Andal",
@@ -56,7 +56,7 @@
     "description": "Unggah berkas JSON Anda untuk terjemahan",
     "dragText": "Seret berkas ke sini atau klik untuk mengunggah",
     "supportText": "Mendukung berkas format .json, hingga 10MB",
-    "apiKeyTip": "Tips: Kunci API OpenAI diperlukan untuk terjemahan",
+    "apiKeyTip": "Tips: Kunci API DeepSeek diperlukan untuk terjemahan",
     "errors": {
       "selectFile": "Silakan pilih berkas",
       "jsonExtension": "Silakan unggah berkas dengan ekstensi .json",
@@ -67,7 +67,7 @@
     "success": {
       "uploaded": "Berkas berhasil diunggah"
     },
-    "apiKeyTitle": "Kunci API OpenAI",
+    "apiKeyTitle": "Kunci API DeepSeek",
     "apiKeyPlaceholder": "sk-...",
     "errorTitle": "Kesalahan",
     "successTitle": "Sukses"
@@ -205,7 +205,7 @@
       },
       "1": {
         "question": "Bagaimana cara menggunakan alat ini?",
-        "answer": "1. Unggah file JSON Anda untuk diterjemahkan\n2. Pilih bahasa target\n3. Masukkan Kunci API OpenAI Anda\n4. Klik mulai terjemahan\n5. Unduh hasil setelah terjemahan selesai"
+        "answer": "1. Unggah file JSON Anda untuk diterjemahkan\n2. Pilih bahasa target\n3. Masukkan Kunci API DeepSeek Anda\n4. Klik mulai terjemahan\n5. Unduh hasil setelah terjemahan selesai"
       },
       "2": {
         "question": "Bahasa apa saja yang didukung?",
@@ -217,7 +217,7 @@
       },
       "4": {
         "question": "Bagaimana kualitas terjemahan dijamin?",
-        "answer": "Kami menggunakan model GPT dari OpenAI untuk terjemahan, memastikan akurasi istilah teknis dan ekspresi bahasa alami. Kami juga mendukung fungsi kamus kustom untuk menjaga konsistensi terminologi tertentu."
+        "answer": "Kami menggunakan model GPT dari DeepSeek untuk terjemahan, memastikan akurasi istilah teknis dan ekspresi bahasa alami. Kami juga mendukung fungsi kamus kustom untuk menjaga konsistensi terminologi tertentu."
       },
       "5": {
         "question": "Apakah ada batas ukuran file?",
@@ -244,6 +244,6 @@
   "metadata": {
     "title": "Penerjemah JSON - Solusi Terjemahan Multibahasa Berbasis AI",
     "description": "Terjemahkan file bahasa JSON ke berbagai bahasa dengan cepat dan akurat menggunakan teknologi AI. Mendukung struktur JSON, placeholder variabel, dan tag HTML.",
-    "keywords": "terjemahan JSON,terjemahan AI,internasionalisasi,i18n,terjemahan multibahasa,OpenAI"
+    "keywords": "terjemahan JSON,terjemahan AI,internasionalisasi,i18n,terjemahan multibahasa,DeepSeek"
   }
 }

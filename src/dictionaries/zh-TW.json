@@ -43,7 +43,7 @@
       },
       "2": {
         "title": "AI 驅動的翻譯",
-        "description": "利用 OpenAI GPT 模型確保技術術語的準確性和自然表達"
+        "description": "利用 DeepSeek GPT 模型確保技術術語的準確性和自然表達"
       },
       "3": {
         "title": "安全可靠",
@@ -56,7 +56,7 @@
     "description": "上傳您的 JSON 文件以進行翻譯",
     "dragText": "將文件拖到這裡或點擊上傳",
     "supportText": "支持 .json 格式文件，最大 10MB",
-    "apiKeyTip": "提示：翻譯需要 OpenAI API 密鑰",
+    "apiKeyTip": "提示：翻譯需要 DeepSeek API 密鑰",
     "errors": {
       "selectFile": "請選擇一個文件",
       "jsonExtension": "請上傳一個 .json 擴展名的文件",
@@ -67,7 +67,7 @@
     "success": {
       "uploaded": "文件上傳成功"
     },
-    "apiKeyTitle": "OpenAI API 密鑰",
+    "apiKeyTitle": "DeepSeek API 密鑰",
     "apiKeyPlaceholder": "sk-...",
     "errorTitle": "錯誤",
     "successTitle": "成功"
@@ -205,7 +205,7 @@
       },
       "1": {
         "question": "如何使用這個工具？",
-        "answer": "1. 上傳您的 JSON 文件進行翻譯\n2. 選擇目標語言\n3. 輸入您的 OpenAI API 密鑰\n4. 點擊開始翻譯\n5. 翻譯完成後下載結果"
+        "answer": "1. 上傳您的 JSON 文件進行翻譯\n2. 選擇目標語言\n3. 輸入您的 DeepSeek API 密鑰\n4. 點擊開始翻譯\n5. 翻譯完成後下載結果"
       },
       "2": {
         "question": "支持哪些語言？",
@@ -217,7 +217,7 @@
       },
       "4": {
         "question": "如何確保翻譯質量？",
-        "answer": "我們使用 OpenAI 的 GPT 模型進行翻譯，確保技術術語的準確性和自然語言表達。我們還支持自定義字典功能，以保持特定術語的一致性。"
+        "answer": "我們使用 DeepSeek 的 GPT 模型進行翻譯，確保技術術語的準確性和自然語言表達。我們還支持自定義字典功能，以保持特定術語的一致性。"
       },
       "5": {
         "question": "是否有檔案大小限制？",
@@ -244,6 +244,6 @@
   "metadata": {
     "title": "JSON翻譯工具 - AI驅動的多語言翻譯解決方案",
     "description": "使用AI技術快速準確地將JSON語言文件翻譯成多種語言。支持保持JSON結構、變量佔位符和HTML標籤。",
-    "keywords": "JSON翻譯,AI翻譯,國際化,i18n,多語言翻譯,OpenAI,線上工具"
+    "keywords": "JSON翻譯,AI翻譯,國際化,i18n,多語言翻譯,DeepSeek,線上工具"
   }
 }

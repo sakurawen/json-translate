@@ -43,7 +43,7 @@
       },
       {
         "title": "AI-Powered Translation",
-        "description": "Utilizing OpenAI GPT models to ensure accuracy of technical terms and natural expression"
+        "description": "Utilizing DeepSeek GPT models to ensure accuracy of technical terms and natural expression"
       },
       {
         "title": "Secure & Reliable",
@@ -56,7 +56,7 @@
     "description": "Upload your JSON file for translation",
     "dragText": "Drag files here or click to upload",
     "supportText": "Supports .json format files, up to 10MB",
-    "apiKeyTip": "Tips: OpenAI API Key is required for translation",
+    "apiKeyTip": "Tips: DeepSeek API Key is required for translation",
     "errors": {
       "selectFile": "Please select a file",
       "jsonExtension": "Please upload a file with a .json extension",
@@ -67,7 +67,7 @@
     "success": {
       "uploaded": "File uploaded successfully"
     },
-    "apiKeyTitle": "OpenAI API Key",
+    "apiKeyTitle": "DeepSeek API Key",
     "apiKeyPlaceholder": "sk-...",
     "errorTitle": "Error",
     "successTitle": "Success"
@@ -205,7 +205,7 @@
       },
       {
         "question": "How to use this tool?",
-        "answer": "1. Upload your JSON file for translation\n2. Select target languages\n3. Enter your OpenAI API Key\n4. Click start translation\n5. Download results after translation is complete"
+        "answer": "1. Upload your JSON file for translation\n2. Select target languages\n3. Enter your DeepSeek API Key\n4. Click start translation\n5. Download results after translation is complete"
       },
       {
         "question": "What languages are supported?",
@@ -217,7 +217,7 @@
       },
       {
         "question": "How is translation quality assured?",
-        "answer": "We use OpenAI's GPT model for translation, ensuring accuracy of technical terms and natural language expression. We also support custom dictionary functionality to maintain consistency of specific terminology."
+        "answer": "We use DeepSeek's GPT model for translation, ensuring accuracy of technical terms and natural language expression. We also support custom dictionary functionality to maintain consistency of specific terminology."
       },
       {
         "question": "Is there a file size limit?",
@@ -244,6 +244,6 @@
   "metadata": {
     "title": "JSON Translator - AI-Powered Multilingual Translation Solution",
     "description": "Quickly and accurately translate JSON language files into multiple languages using AI technology. Supports JSON structure, variable placeholders, and HTML tags.",
-    "keywords": "JSON translation,AI translation,internationalization,i18n,multilingual translation,OpenAI"
+    "keywords": "JSON translation,AI translation,internationalization,i18n,multilingual translation,DeepSeek"
   }
 } 

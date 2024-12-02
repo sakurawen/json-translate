@@ -43,7 +43,7 @@
         },
         {
           "title": "Dịch thuật bằng AI",
-          "description": "Sử dụng mô hình GPT của OpenAI để đảm bảo độ chính xác của thuật ngữ kỹ thuật và cách diễn đạt tự nhiên"
+          "description": "Sử dụng mô hình GPT của DeepSeek để đảm bảo độ chính xác của thuật ngữ kỹ thuật và cách diễn đạt tự nhiên"
         },
         {
           "title": "An toàn & Đáng tin cậy",
@@ -56,7 +56,7 @@
       "description": "Tải lên tệp JSON của bạn để dịch",
       "dragText": "Kéo tệp vào đây hoặc nhấp để tải lên",
       "supportText": "Hỗ trợ tệp định dạng .json, tối đa 10MB",
-      "apiKeyTip": "Mẹo: Cần có OpenAI API Key để dịch",
+      "apiKeyTip": "Mẹo: Cần có DeepSeek API Key để dịch",
       "errors": {
         "selectFile": "Vui lòng chọn một tệp",
         "jsonExtension": "Vui lòng tải lên tệp có phần mở rộng .json",
@@ -67,7 +67,7 @@
       "success": {
         "uploaded": "Tải lên tệp thành công"
       },
-      "apiKeyTitle": "OpenAI API Key",
+      "apiKeyTitle": "DeepSeek API Key",
       "apiKeyPlaceholder": "sk-...",
       "errorTitle": "Lỗi",
       "successTitle": "Thành công"
@@ -205,7 +205,7 @@
         },
         {
           "question": "Làm thế nào để sử dụng công cụ này?",
-          "answer": "1. Tải lên tệp JSON của bạn để dịch\n2. Chọn ngôn ngữ đích\n3. Nhập OpenAI API Key của bạn\n4. Nhấp vào bắt đầu dịch\n5. Tải xuống kết quả sau khi dịch xong"
+          "answer": "1. Tải lên tệp JSON của bạn để dịch\n2. Chọn ngôn ngữ đích\n3. Nhập DeepSeek API Key của bạn\n4. Nhấp vào bắt đầu dịch\n5. Tải xuống kết quả sau khi dịch xong"
         },
         {
           "question": "Hỗ trợ những ngôn ngữ nào?",
@@ -217,7 +217,7 @@
         },
         {
           "question": "Làm thế nào để đảm bảo chất lượng dịch?",
-          "answer": "Chúng tôi sử dụng mô hình GPT của OpenAI để dịch, đảm bảo độ chính xác của thuật ngữ kỹ thuật và cách diễn đạt ngôn ngữ tự nhiên. Chúng tôi cũng hỗ trợ chức năng từ điển tùy chỉnh để duy trì tính nhất quán của thuật ngữ cụ thể."
+          "answer": "Chúng tôi sử dụng mô hình GPT của DeepSeek để dịch, đảm bảo độ chính xác của thuật ngữ kỹ thuật và cách diễn đạt ngôn ngữ tự nhiên. Chúng tôi cũng hỗ trợ chức năng từ điển tùy chỉnh để duy trì tính nhất quán của thuật ngữ cụ thể."
         },
         {
           "question": "Có giới hạn kích thước tệp không?",
@@ -244,6 +244,6 @@
     "metadata": {
       "title": "Công cụ dịch JSON - Giải pháp dịch đa ngôn ngữ được hỗ trợ bởi AI",
       "description": "Dịch nhanh chóng và chính xác các tệp ngôn ngữ JSON sang nhiều ngôn ngữ bằng công nghệ AI. Hỗ trợ cấu trúc JSON, biến và thẻ HTML.",
-      "keywords": "dịch JSON,dịch AI,quốc tế hóa,i18n,dịch đa ngôn ngữ,OpenAI"
+      "keywords": "dịch JSON,dịch AI,quốc tế hóa,i18n,dịch đa ngôn ngữ,DeepSeek"
     }
   }

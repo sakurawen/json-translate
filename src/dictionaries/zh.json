@@ -43,7 +43,7 @@
       },
       {
         "title": "AI 驱动翻译",
-        "description": "使用 OpenAI GPT 模型确保专业术语的准确性和自然表达"
+        "description": "使用 DeepSeek GPT 模型确保专业术语的准确性和自然表达"
       },
       {
         "title": "安全可靠",
@@ -56,7 +56,7 @@
     "description": "上传需要翻译的 JSON 文件",
     "dragText": "拖拽文件到此处或点击上传",
     "supportText": "支持 .json 格式文件，最大 10MB",
-    "apiKeyTitle": "OpenAI API 密钥",
+    "apiKeyTitle": "DeepSeek API 密钥",
     "apiKeyPlaceholder": "sk-...",
     "errors": {
       "selectFile": "请选择文件",
@@ -70,7 +70,7 @@
     },
     "errorTitle": "错误",
     "successTitle": "成功",
-    "apiKeyTip": "提示：翻译功能需要 OpenAI API 密钥"
+    "apiKeyTip": "提示：翻译功能需要 DeepSeek API 密钥"
   },
   "translateSection": {
     "title": "选择目标语言",
@@ -205,7 +205,7 @@
       },
       {
         "question": "如何使用这个工具？",
-        "answer": "1. 上传需要翻译的 JSON 文件\n2. 选择目标语言\n3. 输入 OpenAI API Key\n4. 点击开始翻译\n5. 翻译完成后下载结果"
+        "answer": "1. 上传需要翻译的 JSON 文件\n2. 选择目标语言\n3. 输入 DeepSeek API Key\n4. 点击开始翻译\n5. 翻译完成后下载结果"
       },
       {
         "question": "支持哪些语言？",
@@ -217,7 +217,7 @@
       },
       {
         "question": "如何保证翻译质量？",
-        "answer": "我们使用 OpenAI 的 GPT 模型进行翻译，确保专业术语的准确性和语言表达的自然性。我们还支持自定义词典功能来保持特定术语的一致性。"
+        "answer": "我们使用 DeepSeek 的 GPT 模型进行翻译，确保专业术语的准确性和语言表达的自然性。我们还支持自定义词典功能来保持特定术语的一致性。"
       },
       {
         "question": "文件大小有限制吗？",
@@ -244,6 +244,6 @@
   "metadata": {
     "title": "JSON翻译工具 - AI驱动的多语言翻译解决方案",
     "description": "使用AI技术快速准确地将JSON语言文件翻译成多种语言。支持保持JSON结构、变量占位符和HTML标签。",
-    "keywords": "JSON翻译,AI翻译,国际化,i18n,多语言翻译,OpenAI"
+    "keywords": "JSON翻译,AI翻译,国际化,i18n,多语言翻译,DeepSeek"
   }
 } 

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^1.0.5",
     "@headlessui/react": "^2.2.0",
     "@radix-ui/react-checkbox": "^1.1.2",
     "@radix-ui/react-popover": "^1.1.2",
@@ -19,6 +20,7 @@
     "@radix-ui/react-toast": "^1.2.2",
     "@types/react-syntax-highlighter": "^15.5.13",
     "@types/react-window": "^1.8.8",
+    "ai": "^4.0.10",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "jszip": "^3.10.1",
